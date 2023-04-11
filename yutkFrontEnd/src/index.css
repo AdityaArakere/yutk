@@ -1,0 +1,34 @@
+.navbar {
+  --bs-navbar-padding-y: 0;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  transition: 10s;
+
+}
+
+.dropdown.show .dropdown-menu{
+    max-height: 500px;
+}
+
+.dropdown-menu.show{
+    width: 500px;
+}
+
+.dropdown-menu{
+    min-width: 100rem;
+}
+
+.dropdown{
+    width: auto;
+    margin-right: 50px;
+}
+
+.navbar-nav{
+    width: 100px;
+}
+
+.pe-3{
+    padding-right: 0px !important;
+}
